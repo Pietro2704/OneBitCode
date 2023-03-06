@@ -14,25 +14,29 @@
   </head>
   <body>
     <header>
-      <img src="./img/logo.svg" alt="Logo JazzSchool" />
-      <nav class="mt-1 mx-auto">
-        <a href="#">Início</a>
-        <a href="#">Cursos</a>
-        <a href="#">Eventos</a>
-        <a href="#">Contato</a>
-      </nav>
-      <a href="#" class="btn mx-auto mt-1">Se Inscreva</a>
+      <div class="container">
+        <img src="./img/logo.svg" alt="Logo JazzSchool" />
+        <nav>
+          <a href="#">Início</a>
+          <a href="#">Cursos</a>
+          <a href="#">Eventos</a>
+          <a href="#">Contato</a>
+        </nav>
+        <a href="#" class="btn mx-auto mt-1">Se Inscreva</a>
+      </div>
     </header>
 
     <main>
       <section class="hero-section">
-        <img src="./img/hero-img.svg" alt="Banda de jaz tocando">
-        <div>
-          <h1 class="mt-2">Crie algo <span class="txt-primary decoration">impactante</span> com música</h1>
-          <p class="mt-2 mb-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas qui vero quisquam impedit, quaerat recusandae, inventore explicabo
-          </p>
-          <a href="#" class="btn">Comece agora</a>
+        <div class="container row-reverse">
+          <img src="./img/hero-img.svg" alt="Banda de jaz tocando">
+          <div>
+            <h1 class="mt-2">Crie algo <span class="txt-primary decoration">impactante</span> com música</h1>
+            <p class="mt-2 mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas qui vero quisquam impedit, quaerat recusandae, inventore explicabo
+            </p>
+            <a href="#" class="btn">Comece agora</a>
+          </div>
         </div>
       </section>
 
@@ -80,21 +84,23 @@
       </section>
     </main>
     <footer>
-      <div>
-        <img src="./img/logo.svg" alt="Jazz School" class="mt-1 mb-1">
-        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eos cumque. Quo nam minima officiis quis similique et cumque ab eum dolorum deleniti</p>
+      <div class="container">
+        <div class="about">
+          <img src="./img/logo.svg" alt="Jazz School" class="mt-1 mb-1">
+          <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eos cumque. Quo nam minima officiis quis similique et cumque ab eum dolorum deleniti</p>
+        </div>
+        <nav class="mb-2">
+          <a href="#">Início</a>
+          <a href="#">Cursos</a>
+          <a href="#">Eventos</a>
+          <a href="#">Contato</a>
+        </nav>
+        <form class="newsletter-form" action="#">
+          <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+          <input type="text" name="email" id="email" placeholder="Digite seu email" class="mb-1">
+          <button class="btn mb-2"> quero receber</button>
+        </form>
       </div>
-      <nav class="mb-2">
-        <a href="#">Início</a>
-        <a href="#">Cursos</a>
-        <a href="#">Eventos</a>
-        <a href="#">Contato</a>
-      </nav>
-      <form class="newsletter-form" action="#">
-        <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
-        <input type="text" name="email" id="email" placeholder="Digite seu email" class="mb-1">
-        <button class="btn mb-2"> quero receber</button>
-      </form>
     </footer>
   </body>
 </html>
