@@ -111,8 +111,44 @@ h2{
   width: 40px;
 }
 
+.courses-section{
+  padding-bottom: 8rem;
 
+}
 
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.25rem;
+  margin-top: -8rem;
+  margin-bottom: 4rem;
+}
+
+.card{
+  background-color: var(--primaria);
+  border: 2px black solid;
+  box-shadow: 4px 4px 0px black;
+  max-width: 17rem;
+  padding: 2rem 0 0 2rem;
+}
+
+.card:nth-child(2n){
+  align-self: end;
+  background-color: var(--secundaria);
+}
+
+.card strong{
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card a{
+  display: block;
+  width: fit-content;
+  margin: 3rem 0 0 auto;
+}
 
 
 
