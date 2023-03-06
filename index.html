@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/style.css">
   </head>
   <body>
     <header>
@@ -81,18 +81,19 @@
     </main>
     <footer>
       <div>
-        <img src="./img/logo.svg" alt="Jazz School">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eos cumque. Quo nam minima officiis quis similique et cumque ab eum dolorum deleniti</p>
+        <img src="./img/logo.svg" alt="Jazz School" class="mt-1 mb-1">
+        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eos cumque. Quo nam minima officiis quis similique et cumque ab eum dolorum deleniti</p>
       </div>
-      <nav>
+      <nav class="mb-2">
         <a href="#">Início</a>
         <a href="#">Cursos</a>
         <a href="#">Eventos</a>
         <a href="#">Contato</a>
       </nav>
-      <form action="#">
-        <label for="email">Receba materiais gratuitos no seu email</label>
-        <input type="text" name="email" id="email" placeholder="Digite seu email">
+      <form class="newsletter-form" action="#">
+        <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu email" class="mb-1">
+        <button class="btn mb-2"> quero receber</button>
       </form>
     </footer>
   </body>

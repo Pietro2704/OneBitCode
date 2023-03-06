@@ -150,9 +150,32 @@ h2{
   margin: 3rem 0 0 auto;
 }
 
+footer{
+  border-bottom: 0;
+  padding: 1rem 1.25rem 4rem;
+
+}
+footer nav a{
+  display: block;
+  padding-left: 0;
+
+}
+
+.newsletter-form label{
+  display: block;
+  font-size: 1.5rem;
+}
+
+.newsletter-form input{
+  border: 2px solid black;
+  box-shadow: 4px 4px 0 black;
+  font-size: 1.5rem;
+  padding: .5rem;
+  width: 100%;
+}
 
 
-
+/*  Utilitários:  */
 
 .mt-1{
   margin-top: 1rem;
